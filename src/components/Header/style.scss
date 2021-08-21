@@ -1,0 +1,75 @@
+@use 'src/styles/margins';
+@use 'src/styles/fontSizes';
+@use 'src/styles/breakpoints';
+@use 'src/styles/zindex';
+
+// to remember => DO NOT use div to position elements in the header
+// otherwise blocks the other elements under it
+// (even if a background is transparent, if its z-index is above the other one
+// the elements under will not be clickable
+
+.header {
+
+  opacity: 1;
+
+  &__blackbox {
+    position: fixed;
+    width: 100vw;
+    height: margins.$outsideBorderMobile;
+    left: 0;
+    z-index: zindex.$header;
+
+    &--top {
+      top: 0;
+      background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+    }
+
+    &--bottom {
+      bottom: 0;
+      background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    }
+  }
+
+  &__language {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$desktop) {
+  .header {
+
+    &__blackbox {
+      height: 0;
+      width: 0;
+      display: none;
+    }
+
+    &__language {
+      display: block;
+      position: fixed;
+      transform: rotate(-90deg);
+      top: 50vh;
+
+      &, & button {
+        color: rgba($color: #ffffff, $alpha: 0.25);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: fontSizes.$menuSmallDesktop;
+        font-kerning: fontSizes.$menuSmallKerningDesktop;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0);
+      }
+
+      &--active {
+        color: white !important;
+      } 
+
+      &__english {
+        margin-right: 20px;
+      }
+      &__french {
+        margin-left: 20px; 
+      }
+    }
+  }
+}

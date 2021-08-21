@@ -1,0 +1,20 @@
+@use 'src/styles/breakpoints';
+@use 'src/styles/margins';
+
+.progressionBar {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+
+  &__inside {
+  display: flex;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$desktop) {
+  .progressionBar {
+    margin-top: calc(#{margins.$outsideBorderDesktop} - 10px);
+  }
+}

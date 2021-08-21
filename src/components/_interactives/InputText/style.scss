@@ -1,0 +1,10 @@
+@use 'src/styles/fontSizes';
+
+.inputText {
+  padding-bottom: 15px;
+  border-bottom: 2px dashed white;
+  margin-bottom: 20px;
+  font-size: fontSizes.$textDesktop;
+  letter-spacing: fontSizes.$textKerningDesktop;
+  line-height: fontSizes.$textSpacingDesktop;
+}

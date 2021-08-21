@@ -1,0 +1,57 @@
+@use 'src/styles/fontSizes';
+@use 'src/styles/breakpoints';
+@use 'src/styles/margins';
+
+.answerQuestion {
+  width: calc(100vw - #{margins.$borderMobile} * 2);
+  margin: 40px margins.$borderMobile 80px margins.$borderMobile;
+  &__justification {
+    margin-bottom: 40px;
+    font-size: fontSizes.$textMobile;
+    letter-spacing: fontSizes.$textKerningMobile;
+    line-height: fontSizes.$textSpacingMobile;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$desktop) {
+  .answerQuestion {
+    width: calc(100vw - #{margins.$borderDesktop} * 2);
+    margin: 80px margins.$borderDesktop 80px margins.$borderDesktop;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$desktopBigger) {
+  .answerQuestion {
+    width: calc(50vw - #{margins.$borderDesktop} -20px);
+    margin: 0;
+    margin-left: 40px;
+    margin-right: margins.$borderDesktop;
+    &__justification {
+      margin: 0 0 40px 0;
+      font-size: fontSizes.$textDesktop;
+      letter-spacing: fontSizes.$textKerningDesktop;
+      line-height: fontSizes.$textSpacingDesktop;
+      min-width: 500px;
+      &--twoColumns {
+        column-count: 2;
+        column-gap: 40px;
+      }
+    }
+    &__links {
+      flex-direction: row;
+    }
+    &__externalLink {
+      margin-top: 20px;
+      width: 50%;
+      margin-right: 30px;
+    }
+    &__results {
+      margin-top: 20px;
+    }
+  }
+}

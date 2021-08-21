@@ -1,0 +1,102 @@
+{
+  "home": {
+    "subtitle": "An intro to",
+    "title": "Blockchain",
+    "link1": "Get Started",
+    "link2": "I have an account"
+  },
+  "menu": {
+    "home": "Home",
+    "quizzes": "Quizzes",
+    "articles": "Articles",
+    "login": "Login",
+    "register": "Register",
+    "achievements": "Achievements",
+    "settings": "Settings",
+    "signOut": "Sign out"
+  },
+  "header": {
+    "english": "English",
+    "french": "French"
+  },
+  "formUser": {
+    "errorMessage": {
+      "login": "Incorrect Email or Password",
+      "passwordsDontMatch": "Passwords do not match",
+      "lengthFirstname": "Your first name must have between 1 and 25 characters",
+      "lengthLastname": "Your last name must have between 1 and 25 characters",
+      "incorrectEmail": "Already existing email",
+      "incorrectPassword": "Incorrect password",
+      "incorrectNewPassword": "Your password must contain at least 8 characters including a capital letter and a number",
+      "emptyInput": "Please fill in all fields",
+      "emailFormatError": "Invalid email address",
+      "sameOldAndNewPasswords": "Old and New passwords must be different"
+    },
+    "password": "Password",
+    "passwordOld": "Your current password",
+    "passwordNew": "Your new password",
+    "passwordConfirmation": "Password confirmation",
+    "buttonChangePassword": "Change my password",
+    "email": "Email",
+    "emailNew": "Your new email",
+    "buttonChangeEmail": "Change my email",
+    "linkLogIn": "Log in",
+    "linkCreateAccount": "Create new account",
+    "buttonCreateAccount": "Create my account",
+    "buttonDeleteAccount": "Delete my account",
+    "logIn": "Log in",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "buttonShow": "Show",
+    "buttonHide": "Hide"   
+  },
+  "achievements": {
+    "linkReplayQuiz": "Play this quiz"
+  },
+  "quiz": {
+    "numberAnswersSingular": "Only one answer is correct",
+    "numberAnswersPlural": "More than one answer can be right",
+    "linkExternalArticle": "Learn more",
+    "buttonSubmitQuestion": "Validate",
+    "buttonNextQuestion": "Next",
+    "linkResults": "Results",
+    "popUp": {
+      "label": "Oh, no!",
+      "text": "You will loose your progress, if you leave this page",
+      "linkGiveUp": "I don't care",
+      "linkGoBack": "Keep playing"
+    }
+  },
+  "quizResult": {
+    "messageScore": {
+      "0": "",
+      "1": "Not bad!",
+      "2": "Well done!",
+      "3": "Awesome!",
+      "4": "Perfect!"
+    },
+    "textScore": " correct answers",
+    "linkArticles": "More articles",
+    "linkQuizzes": "Continue",
+    "popUp": {
+      "label": "Oh, no!",
+      "text": "You won't be able to save your score, if you leave this page"
+    }
+  },
+  "about": {
+    "title": {
+      "0": "How is the score calculated?",
+      "1": "Who made the questions and answers?"
+    },
+    "text": {
+      "0": {
+        "0": "You can get maximum 1 point per question.",
+        "1": "Wether there is one correct answer or multiple ones, is always written under the question.",
+        "2": "To calculate your score, we take the number of question you correctly answered and divide it by the number of correct answers there was for this question. You'll also have a penalty of -0.5 point per wrong answer."
+      },
+      "1": {
+        "0": "The questions and answers of the quiz were made by the same people who made this website. Please keep in mind that some informations might be inacurrate,as this was made as a personal project. All informations were taken from articles found on the internet. Every question provides the external link to the article used as reference, you can read it to learn more or verify it."
+      }
+    }
+  }
+}

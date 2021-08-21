@@ -1,0 +1,102 @@
+{
+  "home": {
+    "subtitle": "Une introduction à la",
+    "title": "Blockchain",
+    "link1": "Commencer",
+    "link2": "J'ai déjà un compte"
+  },
+  "menu": {
+    "home": "Accueil",
+    "quizzes": "Quiz",
+    "articles": "Articles",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "achievements": "Scores",
+    "settings": "Paramètres",
+    "signOut": "Se déconnecter"
+  },
+  "header": {
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "formUser": {
+    "errorMessage": {
+      "login": "Email ou mot de passe incorrect",
+      "passwordsDontMatch": "Les mots de passe ne sont pas identiques",
+      "lengthFirstname": "Votre prénom doit comporter entre 1 et 25 caractères",
+      "lengthLastname": "Votre nom de famille doit comporter entre 1 et 25 caractères",
+      "incorrectEmail": "Email déjà existant",
+      "incorrectPassword": "Mot de passe incorrect",
+      "incorrectNewPassword": "Votre mot de passe doit contenir au moins 8 caractères dont une majuscule et un chiffre",
+      "emptyInput": "Veuillez remplir tout les champs",
+      "emailFormatError": "Adresse mail invalide",
+      "sameOldAndNewPasswords": "L'ancien et le nouveau mot de passe doivent être different"
+    },
+    "password": "Mot de passe",
+    "passwordOld": "Votre mot de passe actuel",
+    "passwordNew": "Votre nouveau mot de passe",
+    "passwordConfirmation": "Confirmez votre mot de passe",
+    "buttonChangePassword": "Modifier mon mot de passe",
+    "email": "E-mail",
+    "emailNew": "Votre nouvel e-mail",
+    "buttonChangeEmail": "Changer mon e-mail",
+    "linkLogIn": "Se connecter",
+    "linkCreateAccount": "Créer un nouveau compte",
+    "buttonDeleteAccount": "Supprimer mon compte",
+    "logIn": "Me connecter",
+    "buttonCreateAccount": "Créer mon compte",
+    "firstname": "Prénom",
+    "lastname": "Nom de famille",
+    "buttonShow": "Montrer",
+    "buttonHide": "Cacher"
+  },
+  "achievements": {
+    "linkReplayQuiz": "Jouer à ce quiz"
+  },
+  "quiz": {
+    "numberAnswersSingular": "Une seule bonne réponse",
+    "numberAnswersPlural": "Plus d'une réponse peut être correcte",
+    "buttonSubmitQuestion": "Valider",
+    "linkExternalArticle": "En savoir plus",
+    "buttonNextQuestion": "Suivante",
+    "linkResults": "Resultats",
+    "popUp": {
+      "label": "Oh, non !",
+      "text": "Vous perdrez votre progression, si vous quittez cette page",
+      "linkGiveUp": "Pas grave",
+      "linkGoBack": "Continuer à jouer"
+    }
+  },
+  "quizResult": {
+    "messageScore": {
+      "0": "",
+      "1": "Pas mal",
+      "2": "Bien joué",
+      "3": "Bravo !",
+      "4": "Parfait"
+    },
+    "textScore": " de réponses correctes",
+    "linkArticles": "Lire plus d'articles",
+    "linkQuizzes": "Continuer",
+    "popUp": {
+      "label": "Oh, non !",
+      "text": "Vous ne pourrez pas enregistrer votre score, si vous quittez cette page"
+    }
+  },
+  "about": {
+    "title": {
+      "0": "Comment est calculé le score ?",
+      "1": "Qui a créé les questions et les réponses ?"
+    },
+    "text": {
+      "0": {
+        "0": "Vous pouvez obtenir un maximum de 1 point par question.",
+        "1": "En dessous de la question est toujours affiché s'il y a une ou plusieurs bonnes réponses possibles.",
+        "2": "Pour calculer votre score, nous prenons votre nombre de bonne bonnes réponses, divisé par le nombre de bonnes réponses possibles pour cette question. 0.5 points vous vous seront retirés pour chaque mauvaises réponses."
+      },
+      "1": {
+        "0": "Les questions et réponses du site ont été créées par les même personnes qui ont codés le site. Veuillez garder en tête que certaines peuvent être inexactes. Toutes les informations ont été tirées d'articles trouvés sur Internet. Chaque question fournit le lien externe vers l'article utilisé comme référence, vous pouvez le lire pour en savoir plus ou le vérifier."
+      }
+    }
+  }
+}

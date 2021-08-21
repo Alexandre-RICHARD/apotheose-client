@@ -1,0 +1,68 @@
+@use 'src/styles/breakpoints';
+
+// desktop
+$titleS1Desktop: 120px;
+$titleS1KerningDesktop: -9px;
+// mobile
+$titleS1Mobile: 14vw;
+$titleS1KerningMobile: -0.8vw;
+
+// desktop
+$titleS2Desktop: 90px;
+$titleS2KerningDesktop: -6px;
+// mobile
+$titleS2Mobile: 9vw;
+$titleS2KerningMobile: -0.5vw;
+
+// desktop
+$titleS3Desktop: 50px;
+$titleS3KerningDesktop: -3.5px;
+// mobile
+$titleS3Mobile: 7vw;
+$titleS3KerningMobile: -0.25vw;
+
+//desktop
+$menuDesktop: 7vh;
+$menuKerningDesktop: -4px;
+$menuTriangleDesktop: 5vh;
+// mobile
+$menuMobile: 6vh;
+$menuKerningMobile: -0.5vh;
+$menuTriangleMobile: 4vh;
+
+//desktop
+$menuSmallDesktop: 12px;
+$menuSmallKerningDesktop: 20px;
+//mobile
+$menuSmallMobile: 16px;
+$menuSmallKerningMobile: 260px;
+
+// desktop
+$labelS1Desktop: 30px;
+$labelS1KerningDesktop: -1.5px;
+// mobile
+$labelS1Mobile: 20px;
+$labelS1KerningMobile: -0.5px;
+
+// desktop
+$labelS2Desktop: 20px;
+$labelS2KerningDesktop: -0.5px;
+// mobile
+$labelS2Mobile: 16px;
+$labelS2KerningMobile: 0px;
+
+// desktop
+$labelS3Desktop: 12px;
+$labelS3KerningDesktop: 0px;
+// mobile
+$labelS3Mobile: 13px;
+$labelS3KerningMobile: 0px;
+
+// desktop
+$textDesktop: 14px;
+$textKerningDesktop: 0px;
+$textSpacingDesktop: 18px;
+// mobile
+$textMobile: 15px;
+$textKerningMobile: 0px;
+$textSpacingMobile: 19px;

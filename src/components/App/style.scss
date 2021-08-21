@@ -1,0 +1,11 @@
+@use 'src/styles/zindex';
+
+.app {
+  &__threeJs {
+    position: fixed;
+    z-index: zindex.$threeJs;
+    top: 0;
+    left: 0;
+    filter: brightness(1.5);
+  }
+}

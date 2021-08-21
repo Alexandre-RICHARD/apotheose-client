@@ -1,0 +1,83 @@
+@use 'src/styles/fontSizes';
+@use 'src/styles/breakpoints';
+@use 'src/styles/animations';
+
+.linkButton, .submitButton {
+  display: inline-block;
+  border-bottom: 1.5px solid white;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: fontSizes.$labelS2Mobile;
+  letter-spacing: fontSizes.$labelS2KerningMobile;
+
+& input, & button {
+  font-size: fontSizes.$labelS2Mobile;
+  letter-spacing: fontSizes.$labelS2KerningMobile;
+  color: white;
+}
+
+  &--size2, &--size2 input {
+    font-size: fontSizes.$textMobile;
+    letter-spacing: fontSizes.$textKerningMobile;
+  }
+
+  &__triangle {
+    display: inline-block;
+    margin-left: 12px;
+    width: 12px;
+    height: 12px;
+    stroke-width: 1.6px;
+
+    &--size2 {
+      width: 11px;
+      height: 11px;
+      stroke-width: 1.4px;
+      margin-left: 14px;
+    }
+  }
+
+  &__triangle:hover {
+    fill: white;
+    stroke: red;
+  }
+}
+
+.submitButton {
+  padding: animations.$dSubmitButtonPadding 0 animations.$dSubmitButtonPadding 0;
+  border: animations.$dSubmitButtonBorder solid rgba($color: #000000, $alpha: 0.0);
+  border-bottom: animations.$dSubmitButtonBorder solid white;
+}
+
+@media only screen and (min-width: breakpoints.$desktop) {
+  .linkButton, .submitButton {
+    font-size: fontSizes.$labelS2Desktop;
+    letter-spacing: fontSizes.$labelS2KerningDesktop;
+
+  & input {
+    font-size: fontSizes.$labelS2Desktop;
+    letter-spacing: fontSizes.$labelS2KerningDesktop;
+  }
+  
+    &--size2, &--size2 input {
+      font-size: fontSizes.$textDesktop;
+      letter-spacing: fontSizes.$textKerningDesktop;
+    }
+
+    &--paddingTop {
+      padding-top: animations.$dSubmitButtonPadding + animations.$dSubmitButtonBorder;
+    }
+  
+    &__triangle {
+      margin-left: 15px;
+      width: 15px;
+      height: 15px;
+  
+      &--size2 {
+        width: 11px;
+        height: 11px;
+        margin-left: 14px;
+      }
+    }
+  }
+}

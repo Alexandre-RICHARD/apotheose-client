@@ -1,0 +1,18 @@
+// margins at the border of the document (at the very extremity)
+$outsideBorderDesktop: 60px;
+$outsideBorderMobile: 20px;
+
+// 100% of the width and height minus the margins
+$widthOutsideBorderDesktop: calc(100vw - (#{$outsideBorderDesktop} * 2));
+$widthOutsideBorderMobile: calc(100vw - (#{$outsideBorderMobile} * 2));
+$heightOutsideBorderDesktop: calc(100vh - (#{$outsideBorderDesktop} * 2));
+$heightOutsideBorderMobile: calc(100vh - (#{$outsideBorderMobile} * 2));
+
+// margins including the outside border, space for the menu and additional margin
+$borderDesktop: calc(120px + #{$outsideBorderDesktop});
+$borderMobile: calc(20px + #{$outsideBorderMobile});
+
+// 100 % of the width and the height, minus the margin that includes
+// safe space around the menu buttons
+$heightBorderDesktop: calc(100vh - (#{$borderDesktop} * 2));
+$heightBorderMobile: calc(100vh - (#{$borderMobile} * 2));

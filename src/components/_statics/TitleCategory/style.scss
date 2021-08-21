@@ -1,0 +1,39 @@
+@use 'src/styles/fontSizes';
+@use 'src/styles/breakpoints';
+@use 'src/styles/margins';
+@use 'src/styles/zindex';
+
+.titleCategory {
+  font-size: fontSizes.$titleS2Mobile;
+  letter-spacing: fontSizes.$titleS2KerningMobile;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  &--noMarginBottom {
+    margin-bottom: 0px;
+  }
+
+  &__subtile{
+    font-size: fontSizes.$labelS2Mobile;
+    letter-spacing: fontSizes.$labelS2KerningMobile;
+    font-weight: normal;
+    text-transform: none;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$desktop) {
+.titleCategory {
+  font-size: fontSizes.$titleS2Desktop;
+  letter-spacing: fontSizes.$titleS2KerningDesktop;
+  margin-bottom: 40px;
+  &--noMarginBottom {
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+  &__subtile{
+    font-size: fontSizes.$labelS2Desktop;
+    letter-spacing: fontSizes.$labelS2KerningDesktop;
+  }
+}
+}

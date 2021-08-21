@@ -1,0 +1,27 @@
+@use 'src/styles/margins';
+@use 'src/styles/breakpoints';
+@use 'src/styles/zindex';
+
+.quiz {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  &__backgroundAbout {
+    background-color: rgba($color: #000000, $alpha: 0.925);
+    position: absolute;
+    z-index: zindex.$quizBackgroundAbout;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$desktopBigger) {
+
+  .quiz {
+    overflow: hidden;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+  }
+
+}

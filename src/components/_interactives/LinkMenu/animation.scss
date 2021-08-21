@@ -1,0 +1,28 @@
+@use 'src/styles/breakpoints';
+@use 'src/styles/animations';
+@use 'src/styles/margins';
+
+@media only screen and (min-width: breakpoints.$desktop) {
+
+.linkMenu {
+
+  transition-duration: animations.$tDurationG;
+  transition-timing-function: animations.$tTimingFG;
+
+&:hover &__triangle {
+  fill: white;
+}
+
+&--margin1:hover {
+  // takes 14 columns of the grid
+  width: calc(((100vw - #{margins.$borderDesktop}) / 16) * 13);
+}
+
+&--margin2:hover {
+  // takes 11 columns of the grid
+  width: calc(((100vw - #{margins.$borderDesktop}) / 16) * 11);
+}
+
+}
+
+}
