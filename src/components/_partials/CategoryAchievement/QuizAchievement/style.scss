@@ -47,7 +47,7 @@
 @media only screen and (min-width: breakpoints.$desktop) {
 .quizAchievement {
   margin-bottom: 60px;
-  width: calc((((100vw - #{margins.$borderDesktop} * 2) / 2) -60px));
+  width: calc((((100vw - #{margins.$borderDesktop} * 2) / 2) - 60px));
 
   &__quizTitle {
     margin-bottom: 20px;

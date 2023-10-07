@@ -18,3 +18,5 @@ Ce projet m'a permis de :
 - En comprendre plus sur la stylisation grâce à le bonne expertise de Ludivine sur le sujet.
 - Évaluer plus précisement le temps nécessaire à la cration d'un projet d'envergure.
 - Me faire comprendre davantage quelles étaient mes forces et faiblesses ainsi que mes préférences.
+
+TO DO

@@ -35,7 +35,6 @@ const App = ({
   hasFinishedQuiz,
   backgroundClassName,
 }) => {
-  console.log(menuOpen);
   useEffect(() => {
     // start the three.js scene
     // once the other elements are ready
