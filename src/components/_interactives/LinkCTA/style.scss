@@ -16,7 +16,7 @@
     // svg can have width and height specified directly into them or outside
     // we want to have them specified in the CSS to be able to resize it
     // properties that are in the svg have priority over those that are in CSS
-    // so if we precise the width, or fill color, and it's already in the svg, 
+    // so if we precise the width, or fill color, and it's already in the svg,
     // nothing will change
     &__iconDiv {
       min-width: 80px;
@@ -35,7 +35,7 @@
         opacity: 0.25;
       }
     }
-    
+
     &__label {
       display: inline-flex;
       align-items: center;

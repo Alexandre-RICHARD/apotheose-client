@@ -36,7 +36,7 @@
   &__redirectLink2{
     right: margins.$borderMobile;
   }
-  
+
 }
 
 @media only screen and (min-width: breakpoints.$desktop) {
@@ -50,18 +50,18 @@
       font-size: fontSizes.$labelS1Desktop;
       letter-spacing: fontSizes.$labelS1KerningDesktop;
     }
-  
+
     &__redirectLink1, &__redirectLink2 {
       bottom: 120px;
     }
-  
+
     &__redirectLink1{
       left: 120px;
     }
-  
+
     &__redirectLink2{
       right: 120px;
     }
-    
+
   }
 }

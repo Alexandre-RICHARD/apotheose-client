@@ -35,12 +35,12 @@
     }
     &--active {
       color: white !important;
-    } 
+    }
     &__english {
       margin-right: 20px;
     }
     &__french {
-      margin-left: 20px; 
+      margin-left: 20px;
     }
   }
 }
@@ -50,10 +50,10 @@
     left: margins.$outsideBorderDesktop;
     // value substracted linked to the css on the linkMenu Component
     bottom: calc(#{margins.$outsideBorderDesktop} - 3.5vh);
-  &__border { 
+  &__border {
     margin: margins.$outsideBorderDesktop;
     width: margins.$widthOutsideBorderDesktop;
-    height: margins.$heightOutsideBorderDesktop; 
+    height: margins.$heightOutsideBorderDesktop;
   }
   &__language {
     display: none;

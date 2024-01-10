@@ -41,7 +41,7 @@
   .closeIcon, .menuIcon, .profileIcon, .aboutIcon {
     &--topLeftDesktop, &--topRightDesktop {
       top: margins.$outsideBorderDesktop;
-    } 
+    }
     &--bottomLeftDesktop {
       bottom: margins.$outsideBorderDesktop;
       top: auto;

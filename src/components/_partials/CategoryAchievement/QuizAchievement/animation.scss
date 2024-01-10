@@ -2,24 +2,24 @@
 
   &__iconDiv {
 
-    &__withBorders, &__withoutBorders, &__transparentBorders, &__transparentCorners { 
+    &__withBorders, &__withoutBorders, &__transparentBorders, &__transparentCorners {
       animation-timing-function: linear;
       // better to choose a multiple of 3 (linked to icon animations)
       animation-duration: 18s;
       animation-iteration-count: infinite;
     }
-    
+
     &__withBorders {
       animation-name: frameRotateWithBorders;
     }
-    &__withoutBorders { 
+    &__withoutBorders {
       animation-name: frameRotateWithoutBorders;
     }
-    &__transparentBorders { 
+    &__transparentBorders {
       animation-duration: 9s;
       animation-name: opacityBorders;
     }
-    &__transparentCorners { 
+    &__transparentCorners {
       animation-duration: 9s;
       animation-name: opacityCorners;
     }

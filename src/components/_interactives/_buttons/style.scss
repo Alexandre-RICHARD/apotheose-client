@@ -58,7 +58,7 @@
     font-size: fontSizes.$labelS2Desktop;
     letter-spacing: fontSizes.$labelS2KerningDesktop;
   }
-  
+
     &--size2, &--size2 input {
       font-size: fontSizes.$textDesktop;
       letter-spacing: fontSizes.$textKerningDesktop;
@@ -67,12 +67,12 @@
     &--paddingTop {
       padding-top: animations.$dSubmitButtonPadding + animations.$dSubmitButtonBorder;
     }
-  
+
     &__triangle {
       margin-left: 15px;
       width: 15px;
       height: 15px;
-  
+
       &--size2 {
         width: 11px;
         height: 11px;

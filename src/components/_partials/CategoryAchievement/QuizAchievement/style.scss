@@ -27,7 +27,7 @@
     // linked to frame padding
     margin-right: 60px;
     position: relative;
-    
+
     &__withBorders, &__withoutBorders {
       position: absolute;
       top: 0;
@@ -35,7 +35,7 @@
       transform-origin: center;
     }
   }
-  
+
   &__score {
     display: flex;
     flex-direction: column;

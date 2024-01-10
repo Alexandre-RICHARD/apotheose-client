@@ -4,7 +4,7 @@
 
   transition-duration: animations.$tDurationG;
   transition-timing-function: animations.$tTimingFG;
-  
+
   &:active {
     transition-duration: animations.$tDurationG;
     transition-timing-function: animations.$tTimingFG;
@@ -13,7 +13,7 @@
 }
 
 .header__buttonTR:active .frame__corner--topRight {
-   
+
     display: none;
-  
+
 }

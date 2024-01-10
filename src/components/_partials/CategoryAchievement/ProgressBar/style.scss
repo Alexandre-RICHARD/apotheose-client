@@ -36,16 +36,16 @@
       left: 0;
       width: 5px;
     }
-  }    
+  }
 }
 
 @media only screen and (min-width: breakpoints.$desktop) {
   .progressBar {
-  
+
     &--title {
       top: -15px;
     }
-  
+
     &__text {
       font-size: fontSizes.$labelS1Desktop;
       letter-spacing: fontSizes.$labelS1KerningDesktop;

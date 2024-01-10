@@ -6,12 +6,12 @@
   transition-duration: animations.$tDurationG;
   transition-timing-function: animations.$tTimingFG;
 
-&:hover .closeIcon,  &:hover .menuIcon,  &:hover .profileIcon,  &:hover .aboutIcon {
+&:hover .closeIcon, &:hover .menuIcon, &:hover .profileIcon, &:hover .aboutIcon {
 
   &__corners, &__mainStrokes {
     transition-duration: animations.$tDurationG;
     transition-timing-function: animations.$tTimingFG;
-  }  
+  }
   &__corners {
   opacity: 0.25;
   }
@@ -19,13 +19,13 @@
     opacity: 0.75;
   }
 }
-&:active .closeIcon,  &:active .menuIcon,  &:active .profileIcon,  &:active .aboutIcon  {
+&:active .closeIcon, &:active .menuIcon, &:active .profileIcon, &:active .aboutIcon {
 
   &__corners, &__mainStrokes {
     transition-duration: animations.$tDurationG;
     transition-timing-function: animations.$tTimingFG;
     opacity: 0.1;
-  }  
+  }
 }
 
 }
