@@ -1,6 +1,6 @@
 # ⚠️⚠️⚠️⚠️⚠️
 
-## Ce projet est à l'arrêt. Bien qu'avancé à un stade quasi fini, il pourrait être amélioré mais je me concentre sur d'autre projet. Il est cependant fonctionnel.
+## Ce projet est à l'arrêt. Ce message est général à tous mes projets concernés et à un stade trop initial pour être intéressant. Actuellement arrêté en plein dans son développement, il est très probablement non-fonctionnel ou du moins, pas à 100%.
 
 # ⚠️⚠️⚠️⚠️⚠️
 
